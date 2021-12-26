@@ -1,0 +1,14 @@
+# RESTFUL Web Services
+
+Social Media Application
+
+User-> Posts
+
+- Retrieve all Users 	- GET	 /users
+- Create a User		- POST   /users
+- Retrieve one USer	- GET 	 /users/{id} 
+- Delete a User 	- DELETE /users/{id} 
+
+- Retrieve all posts for a User - Get /users/{id}/posts
+- Create a posts for a User - POST /users/{id}/posts
+- Retrive details of a post - GET /users/{id}/posts/{post_id} 	
